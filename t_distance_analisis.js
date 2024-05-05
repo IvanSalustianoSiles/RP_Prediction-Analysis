@@ -13,4 +13,4 @@ for (let i = 1; i <= 8000; i++) {
   distance_array[i] = t_object[`${i}`] - t_object[`${i-1}`];
 }
 
-fs.writeFileSync("./t_file.json", JSON.stringify(t_object));
+// fs.writeFileSync("./t_file.json", JSON.stringify(t_object));
